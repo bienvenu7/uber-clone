@@ -11,7 +11,6 @@ import tw from "tailwind-react-native-classnames";
 
 //for firebase
 import { app } from "../firebase";
-import { getFirestore, addDoc, getDocs, collection } from "firebase/firestore";
 import {
   getAuth,
   createUserWithEmailAndPassword,
