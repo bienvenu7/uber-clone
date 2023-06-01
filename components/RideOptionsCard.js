@@ -37,6 +37,8 @@ const data = [
 
 const surchage = 2;
 
+//le calcule du prix se fait en fonction de la surchage qui ext la variable de circonstance et du multiplier qui est la constante de tarification du taxu par taxi , combiné avec la duré du trajet
+
 const RideOptionsCard = () => {
   const navigation = useNavigation();
   const [selected, setSelected] = useState(null);
